@@ -1,0 +1,59 @@
+*{
+			margin: 0 auto;
+			padding: 0 auto;
+		}	
+		.container{
+			height: 1000px;
+			width: 1000px;
+		}
+		.rows{
+			display: block; 
+			height: 7.46%;
+			width: 100%;
+		}
+		.square{
+			display: inline-block;
+			height: 100%;
+			width: 7.46%;
+		}
+		.white{
+			background-color: #E1ECF0;
+		}
+		.black{
+			background-color: #000000;
+		}
+		.innerTab{
+			height: 33%;
+			width: 100%;
+		}
+		.innerSquare{
+			display: inline-block;
+			height: 100%;
+			width: 33%;
+		}
+		.little_white_square{
+			background-color: #E1ECF0;
+			margin: 12%;
+			height: 75%;
+			width: 75%;
+		}
+		.little_black_square{
+			background-color: #000000;
+			margin: 12%;
+			height: 75%;
+			width: 75%;
+		}
+		#welcome{border: 1px solid white;
+			position: absolute;
+			height: 50%;
+			width: 40%;
+			top: 24.1%;
+			left: 29.2%;
+			background-color: #000000;
+			opacity: 0.8;
+    		filter: alpha(opacity=50); /* For IE8 and earlier */
+		}
+		#inner{
+			background-color: transparent;
+			color: #E1ECF0;
+		}
